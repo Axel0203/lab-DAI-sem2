@@ -1,0 +1,113 @@
+:root{
+    --black: #333333;
+    --white: #ffffff;
+    --soft_blue: #C3ddf5;
+    --hard_blue: #758593;
+    --hard_blue_enf: #3b434a;
+    --gray_nlue: #4e5862;
+    --show: #76b5c5;
+    --show_enf: #4a8493;
+    --clear: #b97455;
+    --clear_emf: #9d5628;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.container{
+    width: 100%;
+    /*display: inline-block;*/
+    /*justify-content: center;
+    align-items: center;*/
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--black);
+}
+p{
+    font-size: 1.1rem;
+    color: var(--black);
+    padding: 10px 0 10px 0;
+}
+label, .show-result{
+    font-size: 1.1rem;
+    color: var(--show_enf);
+}
+.exc{
+    width: 40%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+    background-color: var(--soft_blue);
+    border: solid var(--hard_blue);
+    border-radius: 2%;
+}
+.btn{
+    font-size: 1rem;
+    width: 15%;
+    height: 30px;
+    margin: 30px 20px 30px 0;
+    border: solid 2px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.btn.b-send{
+    background-color: var(--hard_blue);
+    border: solid var(--hard_blue_enf) 2px;
+    color: var(--white);
+}
+.btn.b-show{
+    background-color: var(--show);
+    border: solid var(--show_enf) 2px;
+    color: var(--white);
+}
+.btn.b-reset{
+    background-color: var(--clear);
+    border: solid var(--clear_emf) 2px;
+    color: var(--white);
+}
+.exc.e1 form .btn.b-show:hover, .exc.e2 form .btn.b-show:hover, .exc.e3 form .btn.b-show:hover, .exc.e4 form .btn.b-show:hover, .exc.e5 form .btn.b-show:hover{
+    transition: 0.5s;
+    background-color: var(--white);
+    color: var(--show_enf);
+    border: solid var(--show_enf) 2px;
+}
+.exc.e1 form .btn.b-send:hover, .exc.e2 form .btn.b-send:hover, .exc.e3 form .btn.b-send:hover, .exc.e4 form .btn.b-send:hover, .exc.e5 form .btn.b-send:hover{
+    transition: 0.5s;
+    background-color: var(--white);
+    color: var(--hard_blue_enf);
+    border: solid var(--hard_blue_enf) 2px;
+}
+.exc.e1 form .btn.b-reset:hover, .exc.e2 form .btn.b-reset:hover, .exc.e3 form .btn.b-reset:hover, .exc.e4 form .btn.b-reset:hover, .exc.e5 form .btn.b-reset:hover{
+    transition: 0.5s;
+    background-color: var(--white);
+    color: var(--clear_emf);
+    border: solid var(--clear_emf) 2px;
+}
+.show-result{
+    font-size: 1.1rem;
+    color: var(--black);
+    padding: 15px;
+    margin: 30px;
+    border: solid var(--hard_blue);
+    border-radius: 4%;
+    background-color: var(--white);
+}
+label{
+    margin: 7px 0 7px 0;
+}
+input{
+    padding: 7px;
+    width: 100%;
+    margin: 7px 0 14px 0;
+    outline: none;
+    border: 0;
+    border-radius: 2%;
+    font-size: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.85);
+}

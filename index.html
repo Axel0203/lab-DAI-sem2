@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de aplicaciones en internet | LAB 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="exc e1">
+            <h1>Ejercicio 1</h1>
+            <p class="info-help">Este formulario recibe los nombres y correo de una persona para luego mostrarlas en el contenedor de abajo.</p>            
+            <form action="">
+                <label for="name-ex-1">Ingrese su nombre</label><br>
+                <input type="text" id="name-ex-1" placeholder="Example Name"><br>
+                <label for="email-ex-1">Ingrese su correo</label><br>
+                <input type="email" id="email-ex-1" placeholder="example@email.com"><br>
+                <button class="btn b-show">Mostrar</button>
+            </form>
+            <div class="show-result">Resultado</div>
+        </div>
+        <div class="exc e2">
+            <h1>Ejercicio 2</h1>
+            <p class="info-help">Este formulario recibe 4 números.<br>Luego muestra la suma de los dos primeros y el producto de los dos últimos</p>
+            <form>
+                <label for="num1-ex-2">Ingrese su primer número</label><br>
+                <input type="number" id="num1-ex-2"><br>
+                <label for="num2-ex-2">Ingrese su segundo número</label><br>
+                <input type="number" id="num2-ex-2"><br>
+                <label for="num3-ex-2">Ingrese su tercer número</label><br>
+                <input type="number" id="num3-ex-2"><br>
+                <label for="num4-ex-2">Ingrese su cuarto número</label><br>
+                <input type="number" id="num4-ex-2"><br>
+                <button class="btn b-show">Mostrar</button>
+            </form>
+            <div class="show-result">Resultado</div>
+        </div>
+        <div class="exc e3">
+            <h1>Ejercicio 3</h1>
+            <p class="info-help">Este formulario recibe dos números.<br>Si el primer número es mayor, muestra su suma y diferencia.<br>Caso contrario, se muestra el producto y la división del primero respecto al segundo.</p>
+            <form action="">
+                <label for="num1-ex-3">Ingrese su primer número.</label><br>
+                <input type="number" id="num1-ex-3"><br>
+                <label for="num2-ex-3">Ingrese su segundo número</label><br>
+                <input type="number" id="num2-ex-3"><br>
+                <button class="btn b-show">Mostrar</button>
+            </form>
+            <div class="show-result">Resultado</div>
+        </div>
+        <div class="exc e4">
+            <h1>Ejercicio 4</h1>
+            <p class="info-help">Este formulario recibe 3 notas.<br>Si el promedio de estas 3 es mayor o igual a 4 muestra un mensaje "Regular", caso contrario muestra "Desaprobado".</p>
+            <form action="">
+                <label for="not1-ex-4">Ingrese la nota 1</label><br>
+                <input type="number" id="not1-ex-4"><br>
+                <label for="not2-ex-4">Ingrese la nota 2</label><br>
+                <input type="number" id="not2-ex-4"><br>
+                <label for="not3-ex-4">Ingrese la nota 3</label><br>
+                <input type="number" id="not3-ex-4"><br>
+                <button class="btn b-show">Mostrar</button>
+            </form>
+            <div class="show-result">Resultado</div>
+        </div>
+        <div class="exc e5">
+            <h1>Ejercicio 5</h1>
+            <p class="info-help">Este formulario recibe 3 números diferentes, luego muestra el mayor de ellos.</p>
+            <form action="">
+                <label for="num1-ex-5">Ingrese su primer número.</label><br>
+                <input type="number" id="num1-ex-5"><br>
+                <label for="num2-ex-5">Ingrese su segundo número.</label><br>
+                <input type="number" id="num2-ex-5"><br>
+                <label for="num3-ex-5">Ingrese su tercer número.</label><br>
+                <input type="number" id="num3-ex-5"><br>
+                <button class="btn b-show">Mostrar</button>
+            </form>
+            <div class="show-result">Resultado</div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
